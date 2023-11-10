@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfce051b-aacb-4428-b602-3c158ccc3d1e" name="Changes" comment="ООП" />
+    <list default="true" id="dfce051b-aacb-4428-b602-3c158ccc3d1e" name="Changes" comment="Circle fixed">
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Triangle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,11 +53,19 @@
       <option name="project" value="LOCAL" />
       <updated>1699622835708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Circle fixed">
+      <created>1699623792375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699623792375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ООП" />
-    <option name="LAST_COMMIT_MESSAGE" value="ООП" />
+    <MESSAGE value="Circle fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circle fixed" />
   </component>
 </project>
