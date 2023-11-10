@@ -1,6 +1,6 @@
 public abstract class Figure {
 
-    private final double[] sides;
+    protected final double[] sides;
 
     protected Figure(double[] sides){
         this.sides = sides;

@@ -5,10 +5,10 @@ public class Circle extends Figure{
     }
 
     public double getPerimeter(){
-        return 2 * 3.14 * radius;
+        return 2 * 3.14 * sides[0];
     }
 
     public double getArea(){
-        return 3.14 * radius * radius;
+        return 3.14 * sides[0] * sides[0];
     }
 }
