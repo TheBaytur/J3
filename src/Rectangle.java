@@ -1,19 +1,15 @@
-public class Rectangle {
-
-    private final double a;
-    private final double b;
+public class Rectangle extends Figure{
 
     public Rectangle(double a, double b){
-        this.a = a;
-        this.b = b;
+        super(new double[]{a,b});
     }
 
     public double getPerimeter(){
-        return a + a + b + b;
+        return 2 * super.getPerimeter();
     }
 
     public double getArea(){
-        return a * b;
+        return sides[0] * sides[1];
     }
 
 }
