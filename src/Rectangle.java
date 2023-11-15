@@ -11,5 +11,4 @@ public class Rectangle extends Figure{
     public double getArea(){
         return sides[0] * sides[1];
     }
-
 }
