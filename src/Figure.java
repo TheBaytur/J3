@@ -1,9 +1,12 @@
 public abstract class Figure {
 
-    protected final double[] sides;
+    final String type;
 
-    protected Figure(double[] sides){
+    protected final double[] sides;
+    protected Figure(String type, double[] sides){
+        this.type = type;
         this.sides = sides;
+
     }
 
     public double getPerimeter(){
