@@ -2,8 +2,8 @@ public abstract class Figure {
 
     final String type;
     protected final double[] sides;
-    protected Figure(String type, double[] sides){
-        this.type = type;
+    protected Figure(double[] sides){
+        this.type = getClass().getSimpleName();
         this.sides = sides;
 
     }

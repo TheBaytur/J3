@@ -1,7 +1,7 @@
 public class Circle extends Figure{
 
     public Circle(double radius){
-        super("Circle", new double[]{radius});
+        super(new double[]{radius});
     }
 
     public double getPerimeter(){
