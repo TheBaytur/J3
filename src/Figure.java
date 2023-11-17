@@ -22,7 +22,7 @@ public abstract class Figure {
     }
 
     public String toString() {
-        return getType() + " -area: " + getArea() + ", perimeter: " + getPerimeter();
+        return getType() + " area is: " + getArea() + ", perimeter: " + getPerimeter();
     }
 }
 
