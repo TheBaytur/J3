@@ -6,7 +6,7 @@ public class Main {
         figures[2] = new Triangle(3,4,5);
 
         for (Figure figure : figures){
-            print(figure.type + " - area: " + figure.getArea() + ", perimeter: " + figure.getPerimeter());
+            print(figure.toString());
         }
     }
 
