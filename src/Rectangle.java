@@ -4,6 +4,11 @@ public class Rectangle extends Figure{
         super(new double[]{a,b});
     }
 
+    @Override
+    protected String getType() {
+        return "Rectangle";
+    }
+
     public double getPerimeter(){
         return 2 * super.getPerimeter();
     }

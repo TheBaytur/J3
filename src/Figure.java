@@ -3,18 +3,29 @@ public abstract class Figure {
     final String type;
     protected final double[] sides;
     protected Figure(double[] sides){
-        this.type = getClass().getSimpleName();
+        this.type = getType();
         this.sides = sides;
-
     }
-    public double getPerimeter(){
+
+    protected String getType() {
+        return getClass().getSimpleName();
+    }
+       protected abstract double getArea();
+
+
+    protected double getPerimeter(){
         double perimeter = 0;
         for (double side: sides){
             perimeter += side;
         }
         return perimeter;
     }
-    public abstract double getArea();
+
+    public String toString() {
+        return getType() + " -area: " + getArea() + ", perimeter: " + getPerimeter();
+    }
 }
+
+
 
 // added type
