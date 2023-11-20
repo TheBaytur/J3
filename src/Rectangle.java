@@ -9,12 +9,10 @@ public class Rectangle extends Figure{
         return "Rectangle";
     }
 
-    public double getPerimeter(){
-        return 2 * super.getPerimeter();
+    public double getPerimeter(){return 2 * super.getPerimeter();
     }
 
-    public double getArea(){
-        return sides[0] * sides[1];
+    public double getArea(){return sides[0] * sides[1];
     }
 
     @Override
