@@ -1,8 +1,8 @@
 public abstract class Figure {
 
     final String type;
-    protected final double[] sides;
-    protected Figure(double[] sides){
+    protected final int[] sides;
+    protected Figure(int[] sides){
         this.type = getType();
         this.sides = sides;
     }
@@ -10,12 +10,12 @@ public abstract class Figure {
     protected String getType() {
         return getClass().getSimpleName();
     }
-       protected abstract double getArea();
+       protected abstract int getArea();
 
 
-    protected double getPerimeter(){
-        double perimeter = 0;
-        for (double side: sides){
+    protected int getPerimeter(){
+        int perimeter = 0;
+        for (int side: sides){
             perimeter += side;
         }
         return perimeter;

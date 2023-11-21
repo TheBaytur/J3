@@ -1,7 +1,7 @@
 public class Rectangle extends Figure{
 
-    public Rectangle(double a, double b){
-        super(new double[]{a,b});
+    public Rectangle(int a, int b){
+        super(new int[]{a,b});
     }
 
     @Override
@@ -9,10 +9,10 @@ public class Rectangle extends Figure{
         return "Rectangle";
     }
 
-    public double getPerimeter(){return 2 * super.getPerimeter();
+    public int getPerimeter(){return 2 * super.getPerimeter();
     }
 
-    public double getArea(){return sides[0] * sides[1];
+    public int getArea(){return sides[0] * sides[1];
     }
 
     @Override
